@@ -3,9 +3,9 @@ package abdul.poc.bbva.bankbbva;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.FragmentActivity;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
@@ -18,7 +18,6 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import abdul.poc.bbva.bankbbva.fragments.BankListFragment;
 import abdul.poc.bbva.bankbbva.model.BankLocation;
 import abdul.poc.bbva.bankbbva.net.DownloadCallback;
 import abdul.poc.bbva.bankbbva.net.GetLocationTask;
